@@ -4,5 +4,7 @@ out/
 .env
 *.pyc
 __pycache__/
-engine/
-.vercel
+.gitrepo/
+venv/
+engine_py/__pycache__/
+api_service/
