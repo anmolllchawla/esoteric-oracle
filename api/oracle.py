@@ -179,13 +179,13 @@ class handler(BaseHTTPRequestHandler):
             body = json.loads(self.rfile.read(content_len))
 
             name = body.get("name", "")
-            birth_date = body.get("birth_date", "")
-            birth_time = body.get("birth_time", "12:00")
-            birth_place = body.get("birth_place", "")
-            lat = body.get("latitude")
-            lon = body.get("longitude")
-            tz_offset = body.get("tz_offset")
-            query_focus = body.get("query_focus", "")
+            birth_date = body.get("birth_date") or body.get("birthDate", "")
+            birth_time = body.get("birth_time") or body.get("birthTime", "12:00")
+            birth_place = body.get("birth_place") or body.get("birthPlace", "")
+            lat = body.get("latitude") or body.get("lat")
+            lon = body.get("longitude") or body.get("lon")
+            tz_offset = body.get("tz_offset") or body.get("tzOffset")
+            query_focus = body.get("query_focus") or body.get("queryFocus", "")
 
             if not birth_date or not birth_time or not birth_place:
                 self.send_json({"error": "Missing required: birth_date, birth_time, birth_place"}, 400)
