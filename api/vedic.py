@@ -85,7 +85,9 @@ def nak_pada(lon):
 
 
 def house_num(planet_lon, asc_lon):
-    return int(((planet_lon - asc_lon) % 360) / 30) + 1
+    # Whole sign house system: use start of ascendant sign, not exact degree
+    asc_sign_start = (int(asc_lon / 30)) * 30
+    return int(((planet_lon - asc_sign_start) % 360) / 30) + 1
 
 
 def is_retro(jd, swe_id):
