@@ -1,42 +1,27 @@
 @import "tailwindcss";
 
-:root {
-  --bg: #0a0a0f;
-  --surface: #12121a;
-  --surface2: #1a1a26;
-  --border: #2a2a3a;
-  --text: #e0d8f0;
-  --text-dim: #8878a8;
-  --accent: #a78bfa;
-  --accent2: #c4b5fd;
-  --gold: #d4a853;
-  --rose: #e8738a;
+@theme {
+  --color-bg: #0a0a0f;
+  --color-surface: #12121a;
+  --color-surface2: #1a1a26;
+  --color-border: #2a2a3a;
+  --color-text: #e0d8f0;
+  --color-text-dim: #8878a8;
+  --color-accent: #a78bfa;
+  --color-accent2: #c4b5fd;
+  --color-gold: #d4a853;
+  --color-rose: #e8738a;
 }
 
 body {
-  background: var(--bg);
-  color: var(--text);
+  background: var(--color-bg);
+  color: var(--color-text);
   font-family: 'Inter', system-ui, sans-serif;
 }
 
-.surface {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-}
+.surface { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 12px; }
+.surface2 { background: var(--color-surface2); border: 1px solid var(--color-border); border-radius: 8px; }
 
-.surface2 {
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-}
-
-.text-dim { color: var(--text-dim); }
-.text-accent { color: var(--accent); }
-.text-gold { color: var(--gold); }
-.text-rose { color: var(--rose); }
-
-/* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
