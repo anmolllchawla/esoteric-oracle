@@ -33,7 +33,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const res = await fetch("/api/reading", {
+      const res = await fetch("/api/oracle", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, birthDate, birthTime, birthPlace, queryFocus }),
