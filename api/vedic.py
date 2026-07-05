@@ -39,8 +39,7 @@ DASHA_YEARS = {"Ketu": 7, "Venus": 20, "Sun": 6, "Moon": 10, "Mars": 7,
 BENEFIC_HOUSES = {1, 5, 9}
 MALEFIC_HOUSES = {6, 8, 12}
 
-EPHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                         '..', 'venv', 'ephe')
+EPHE_PATH = '/tmp/swe_ephe'
 
 
 def init_ephe():
