@@ -30,6 +30,7 @@ GEOCODE_CACHE = {
     "london": (51.5074, -0.1278, "London, UK"),
     "mumbai": (19.0760, 72.8777, "Mumbai, India"),
     "delhi": (28.6139, 77.2090, "Delhi, India"),
+    "ambala": (30.3250, 76.8500, "Ambala, Haryana, India"),
     "dubai": (25.2048, 55.2708, "Dubai, UAE"),
     "singapore": (1.3521, 103.8198, "Singapore"),
     "sydney": (-33.8688, 151.2093, "Sydney, Australia"),
@@ -39,6 +40,7 @@ GEOCODE_CACHE = {
     "san francisco": (37.7749, -122.4194, "San Francisco, CA, USA"),
     "seattle": (47.6062, -122.3321, "Seattle, WA, USA"),
     "bengaluru": (12.9716, 77.5946, "Bengaluru, India"),
+    "bangalore": (12.9716, 77.5946, "Bangalore, India"),
     "montreal": (45.5017, -73.5673, "Montreal, QC, Canada"),
     "chicago": (41.8781, -87.6298, "Chicago, IL, USA"),
     "boston": (42.3601, -71.0589, "Boston, MA, USA"),
@@ -48,6 +50,19 @@ GEOCODE_CACHE = {
     "shanghai": (31.2304, 121.4737, "Shanghai, China"),
 }
 
+# Timezone map: place keyword -> UTC offset in hours
+TZ_MAP = {
+    "india": 5.5,
+    "mumbai": 5.5, "delhi": 5.5, "ambala": 5.5, "bengaluru": 5.5, "bangalore": 5.5,
+    "calcutta": 5.5, "kolkata": 5.5, "chennai": 5.5, "hyderabad": 5.5,
+    "pune": 5.5, "ahmedabad": 5.5, "jaipur": 5.5, "lucknow": 5.5, "chandigarh": 5.5,
+    "vancouver": -8, "surrey": -8, "toronto": -5, "montreal": -5,
+    "calgary": -7, "new york": -5, "chicago": -6, "boston": -5,
+    "los angeles": -8, "san francisco": -8, "seattle": -8, "austin": -6,
+    "london": 0, "paris": 1, "berlin": 1,
+    "dubai": 4, "singapore": 8, "hong kong": 8, "shanghai": 8,
+    "tokyo": 9, "sydney": 10, "melbourne": 10,
+}
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_BASE = "https://api.deepseek.com/v1"
 
@@ -198,7 +213,15 @@ class handler(BaseHTTPRequestHandler):
                 place_name = birth_place
 
             if tz_offset is None:
-                tz_offset = max(-12, min(12, round(lon / 15)))
+                # Check TZ_MAP for known cities/countries in the place name
+                tz_offset = None
+                place_lower = (birth_place or place_name or "").lower()
+                for keyword, offset in TZ_MAP.items():
+                    if keyword in place_lower:
+                        tz_offset = offset
+                        break
+                if tz_offset is None:
+                    tz_offset = max(-12, min(12, round(lon / 15)))
 
             # Compute chart (rule-based)
             try:
