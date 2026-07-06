@@ -1,0 +1,610 @@
+{
+  "reading_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "sections": {
+    "vedic": {
+      "overview": "Ascendant Scorpio shapes the lens through which all of life is experienced — a Water rising with fixed rhythm. The chart carries the nakshatras Hasta, Magha, Rohini, Uttara Bhadrapada, Vishakha. Currently moving through Jupiter-Venus dasha period, which sets the temporal backdrop for all current developments.",
+      "detailed": {
+        "lagna": {
+          "sign": "Scorpio",
+          "degree": 15.3,
+          "nakshatra": "Anuradha",
+          "pada": 3,
+          "sign_quality": "Intense, transformative",
+          "element": "Water",
+          "modality": "Fixed",
+          "interpretation": "Ascendant in Scorpio (Water Fixed) — Intense, transformative. Anuradha nakshatra pada 3 adds its specific flavor to the rising personality."
+        },
+        "planets": [
+          {
+            "planet": "Sun",
+            "sign": "Leo",
+            "house": 10,
+            "nakshatra": "Magha",
+            "is_retrograde": false,
+            "benefic_malefic": "Natural Benefic, Functional Benefic",
+            "interpretation": "Sun in Leo (House 10), Magha nakshatra. Natural Benefic, Functional Benefic. Governs: Soul purpose, vitality, authority, self-expression, father."
+          },
+          {
+            "planet": "Moon",
+            "sign": "Taurus",
+            "house": 7,
+            "nakshatra": "Rohini",
+            "is_retrograde": false,
+            "benefic_malefic": "Natural Benefic, Functional Benefic",
+            "interpretation": "Moon in Taurus (House 7), Rohini nakshatra. Natural Benefic, Functional Benefic. Governs: Mind, emotions, mother, nurturing, intuition, public life."
+          },
+          {
+            "planet": "Mars",
+            "sign": "Scorpio",
+            "house": 1,
+            "nakshatra": "Vishakha",
+            "is_retrograde": false,
+            "benefic_malefic": "Natural Malefic, Functional Benefic",
+            "interpretation": "Mars in Scorpio (House 1), Vishakha nakshatra. Natural Malefic, Functional Benefic. Governs: Energy, courage, drive, aggression, siblings, property."
+          },
+          {
+            "planet": "Mercury",
+            "sign": "Virgo",
+            "house": 11,
+            "nakshatra": "Hasta",
+            "is_retrograde": false,
+            "benefic_malefic": "Natural Benefic, Functional Benefic",
+            "interpretation": "Mercury in Virgo (House 11), Hasta nakshatra. Natural Benefic, Functional Benefic. Governs: Intellect, communication, commerce, adaptability, speech."
+          },
+          {
+            "planet": "Jupiter",
+            "sign": "Pisces",
+            "house": 5,
+            "nakshatra": "Uttara Bhadrapada",
+            "is_retrograde": true,
+            "benefic_malefic": "Natural Benefic, Functional Benefic",
+            "interpretation": "Jupiter (Retrograde) in Pisces (House 5), Uttara Bhadrapada nakshatra. Natural Benefic, Functional Benefic. Governs: Wisdom, expansion, fortune, teaching, children, spirituality."
+          },
+          {
+            "planet": "Venus",
+            "sign": "Libra",
+            "house": 12,
+            "nakshatra": "Swati",
+            "is_retrograde": false,
+            "benefic_malefic": "Natural Benefic, Functional Malefic",
+            "interpretation": "Venus in Libra (House 12), Swati nakshatra. Natural Benefic, Functional Malefic. Governs: Love, beauty, art, relationships, luxuries, vehicles."
+          },
+          {
+            "planet": "Saturn",
+            "sign": "Capricorn",
+            "house": 3,
+            "nakshatra": "Dhanishta",
+            "is_retrograde": false,
+            "benefic_malefic": "Natural Malefic, Functional Benefic",
+            "interpretation": "Saturn in Capricorn (House 3), Dhanishta nakshatra. Natural Malefic, Functional Benefic. Governs: Discipline, karma, delay, structure, longevity, service."
+          },
+          {
+            "planet": "Rahu",
+            "sign": "Aquarius",
+            "house": 4,
+            "nakshatra": "Shatabhisha",
+            "is_retrograde": true,
+            "benefic_malefic": "Natural Malefic, Functional Malefic",
+            "interpretation": "Rahu (Retrograde) in Aquarius (House 4), Shatabhisha nakshatra. Natural Malefic, Functional Malefic. Governs: Obsession, foreignness, innovation, shadow desire, amplification."
+          },
+          {
+            "planet": "Ketu",
+            "sign": "Leo",
+            "house": 10,
+            "nakshatra": "Magha",
+            "is_retrograde": true,
+            "benefic_malefic": "Natural Malefic, Functional Malefic",
+            "interpretation": "Ketu (Retrograde) in Leo (House 10), Magha nakshatra. Natural Malefic, Functional Malefic. Governs: Detachment, past-life mastery, spirituality, isolation, renunciation."
+          }
+        ],
+        "houses": [
+          {
+            "number": 1,
+            "sign": "Scorpio",
+            "lords": [
+              "Mars"
+            ],
+            "meaning": "Self, body, personality, appearance, head, overall life direction",
+            "interpretation": "House 1 (Self, body, personality, appearance, head, overall life direction) in Scorpio, ruled by Mars."
+          },
+          {
+            "number": 2,
+            "sign": "Sagittarius",
+            "lords": [
+              "Jupiter"
+            ],
+            "meaning": "Wealth, speech, family, values, food, face, right eye",
+            "interpretation": "House 2 (Wealth, speech, family, values, food, face, right eye) in Sagittarius, ruled by Jupiter."
+          },
+          {
+            "number": 3,
+            "sign": "Capricorn",
+            "lords": [
+              "Saturn"
+            ],
+            "meaning": "Courage, siblings, communication, short journeys, hands, ears",
+            "interpretation": "House 3 (Courage, siblings, communication, short journeys, hands, ears) in Capricorn, ruled by Saturn."
+          },
+          {
+            "number": 4,
+            "sign": "Aquarius",
+            "lords": [
+              "Saturn",
+              "Rahu"
+            ],
+            "meaning": "Home, mother, heart, emotional foundation, vehicles, property, chest",
+            "interpretation": "House 4 (Home, mother, heart, emotional foundation, vehicles, property, chest) in Aquarius, ruled by Saturn, Rahu."
+          },
+          {
+            "number": 5,
+            "sign": "Pisces",
+            "lords": [
+              "Jupiter"
+            ],
+            "meaning": "Creativity, children, romance, intellect, past-life merit, stomach",
+            "interpretation": "House 5 (Creativity, children, romance, intellect, past-life merit, stomach) in Pisces, ruled by Jupiter."
+          },
+          {
+            "number": 6,
+            "sign": "Aries",
+            "lords": [
+              "Mars"
+            ],
+            "meaning": "Health, enemies, debts, service, daily routine, competition, intestines",
+            "interpretation": "House 6 (Health, enemies, debts, service, daily routine, competition, intestines) in Aries, ruled by Mars."
+          },
+          {
+            "number": 7,
+            "sign": "Taurus",
+            "lords": [
+              "Venus"
+            ],
+            "meaning": "Partnership, marriage, business, public image, lower back, kidneys",
+            "interpretation": "House 7 (Partnership, marriage, business, public image, lower back, kidneys) in Taurus, ruled by Venus."
+          },
+          {
+            "number": 8,
+            "sign": "Gemini",
+            "lords": [
+              "Mercury"
+            ],
+            "meaning": "Transformation, occult, inheritance, longevity, secrets, genitals",
+            "interpretation": "House 8 (Transformation, occult, inheritance, longevity, secrets, genitals) in Gemini, ruled by Mercury."
+          },
+          {
+            "number": 9,
+            "sign": "Cancer",
+            "lords": [
+              "Moon"
+            ],
+            "meaning": "Fortune, dharma, higher learning, father, long journeys, thighs, guru",
+            "interpretation": "House 9 (Fortune, dharma, higher learning, father, long journeys, thighs, guru) in Cancer, ruled by Moon."
+          },
+          {
+            "number": 10,
+            "sign": "Leo",
+            "lords": [
+              "Sun"
+            ],
+            "meaning": "Career, status, karma, public achievements, knees, authority",
+            "interpretation": "House 10 (Career, status, karma, public achievements, knees, authority) in Leo, ruled by Sun."
+          },
+          {
+            "number": 11,
+            "sign": "Virgo",
+            "lords": [
+              "Mercury"
+            ],
+            "meaning": "Gains, income, social networks, aspirations, elder siblings, ankles",
+            "interpretation": "House 11 (Gains, income, social networks, aspirations, elder siblings, ankles) in Virgo, ruled by Mercury."
+          },
+          {
+            "number": 12,
+            "sign": "Libra",
+            "lords": [
+              "Venus"
+            ],
+            "meaning": "Loss, isolation, foreign lands, bed pleasures, spirituality, feet, liberation",
+            "interpretation": "House 12 (Loss, isolation, foreign lands, bed pleasures, spirituality, feet, liberation) in Libra, ruled by Venus."
+          }
+        ],
+        "dasha": {
+          "mahadasha_lord": "Jupiter",
+          "mahadasha_period": "2023-04-15 to 2039-04-15",
+          "antardasha_lord": "Venus",
+          "antardasha_period": "2025-08-01 to 2028-01-15",
+          "interpretation": "Currently running Jupiter Mahadasha with Venus Antardasha. This period's themes are shaped by Jupiter's placement and Venus's activation."
+        },
+        "yogas": [
+          {
+            "yoga": "Gaja Kesari",
+            "meaning": "Jupiter-Moon conjunction or mutual aspect. Wisdom and influence like an elephant-lion.",
+            "interpretation": "Gaja Kesari: Jupiter-Moon conjunction or mutual aspect. Wisdom and influence like an elephant-lion."
+          },
+          {
+            "yoga": "Buddha-Aditya",
+            "meaning": "Mercury-Sun conjunction. High intelligence, eloquence, sharp analytical mind.",
+            "interpretation": "Buddha-Aditya: Mercury-Sun conjunction. High intelligence, eloquence, sharp analytical mind."
+          },
+          {
+            "yoga": "Raja",
+            "meaning": "Royal yoga from Kendra-Trikona lord union. Leadership, authority, prominence.",
+            "interpretation": "Raja: Royal yoga from Kendra-Trikona lord union. Leadership, authority, prominence."
+          },
+          {
+            "yoga": "Viparita Raja",
+            "meaning": "Reversal of fortune from dusthana lords in dusthanas. Rise after difficulty.",
+            "interpretation": "Viparita Raja: Reversal of fortune from dusthana lords in dusthanas. Rise after difficulty."
+          },
+          {
+            "yoga": "Sunapha",
+            "meaning": "Planet in 2nd from Moon. Resourceful, accumulated wealth through effort.",
+            "interpretation": "Sunapha: Planet in 2nd from Moon. Resourceful, accumulated wealth through effort."
+          }
+        ],
+        "transits": [
+          {
+            "planet": "Saturn",
+            "transit_sign": "Aquarius",
+            "transit_house": 4,
+            "aspects_natal": "Trine natal Moon in Taurus (7th house)",
+            "interpretation": "Transit Saturn in Aquarius (natal House 4). Trine natal Moon in Taurus (7th house)"
+          },
+          {
+            "planet": "Jupiter",
+            "transit_sign": "Gemini",
+            "transit_house": 8,
+            "aspects_natal": "Opposes natal Mars in Scorpio (1st house)",
+            "interpretation": "Transit Jupiter in Gemini (natal House 8). Opposes natal Mars in Scorpio (1st house)"
+          }
+        ],
+        "divisional": {
+          "d9_navamsha": {
+            "notes": "Venus exalted in D9 (Pisces), Mars in own sign (Aries) — strong relationship and courage signatures in the navamsha.",
+            "interpretation": "The D9 (Navamsha) reveals the inner self, relationship capacity, and deeper karmic patterns beneath the surface chart."
+          },
+          "d10_dashamsha": {
+            "notes": "Sun in 10th of D10, Mercury in 11th — career visibility and network strength amplified in the dashamsha.",
+            "interpretation": "The D10 (Dashamsha) reveals career trajectory, professional reputation, and action in the material world."
+          }
+        }
+      },
+      "summary": "Your Scorpio Ascendant gives you a natural intense, transformative approach to life. The Jupiter Mahadasha colors this entire period with the energy of Wisdom, expansion, fortune, teaching, children, spirituality. Active yogas in your chart — Gaja Kesari, Buddha-Aditya, Raja — indicate special karmic signatures worth exploring in depth."
+    },
+    "chinese": {
+      "overview": "Day Master 甲 — your core elemental identity — interacts with the surrounding pillars to shape your constitutional strengths. Favorable elements Water, Wood support your balance. Current Luck Pillar: 辛酉.",
+      "detailed": {
+        "four_pillars": {
+          "year_pillar": {
+            "stem": "丙",
+            "branch": "寅",
+            "element": "Fire",
+            "stem_meaning": "Bing — Yang Fire. Sun, warmth, passion, visibility, charisma.",
+            "branch_meaning": "Yin — Tiger. Yang Wood. Bold, competitive, adventurous, charismatic.",
+            "interpretation": "丙 (Bing — Yang Fire. Sun, warmth, passion, ...) over 寅 (Yin — Tiger. Yang Wood. Bold, competitiv...). Element: Fire."
+          },
+          "month_pillar": {
+            "stem": "壬",
+            "branch": "子",
+            "element": "Water",
+            "stem_meaning": "Ren — Yang Water. Ocean, free-flowing, intelligent, broad-thinking.",
+            "branch_meaning": "Zi — Rat. Yang Water. Clever, charming, resourceful, social.",
+            "interpretation": "壬 (Ren — Yang Water. Ocean, free-flowing, i...) over 子 (Zi — Rat. Yang Water. Clever, charming, ...). Element: Water."
+          },
+          "day_pillar": {
+            "stem": "甲",
+            "branch": "午",
+            "element": "Wood",
+            "stem_meaning": "Jia — Yang Wood. Tall tree, leadership, direct, principled.",
+            "branch_meaning": "Wu — Horse. Yang Fire. Free-spirited, passionate, independent, dynamic.",
+            "interpretation": "甲 (Jia — Yang Wood. Tall tree, leadership, ...) over 午 (Wu — Horse. Yang Fire. Free-spirited, pa...). Element: Wood."
+          },
+          "hour_pillar": {
+            "stem": "庚",
+            "branch": "辰",
+            "element": "Metal",
+            "stem_meaning": "Geng — Yang Metal. Axe, sword, decisive, transformative, justice-oriented.",
+            "branch_meaning": "Chen — Dragon. Yang Earth. Magnanimous, ambitious, energetic, proud.",
+            "interpretation": "庚 (Geng — Yang Metal. Axe, sword, decisive,...) over 辰 (Chen — Dragon. Yang Earth. Magnanimous, ...). Element: Metal."
+          }
+        },
+        "day_master_analysis": {
+          "day_master": "甲",
+          "meaning": "Jia — Yang Wood. Tall tree, leadership, direct, principled.",
+          "favorable_elements": [
+            "Water",
+            "Wood"
+          ],
+          "unfavorable_elements": [
+            "Metal",
+            "Earth"
+          ],
+          "interpretation": "Day Master 甲 (Jia — Yang Wood. Tall tree, leadership, direct, principled.) is your self-element — the core you. Elements that support you: Water, Wood. Elements that challenge you: Metal, Earth."
+        },
+        "luck_pillar": {
+          "pillar": "辛酉",
+          "age_range": "32-41",
+          "element_relationship": "Metal (unfavorable) — a contracting period requiring adaptation",
+          "interpretation": "Current Luck Pillar: 辛酉 (32-41). Relationship to Day Master: Metal (unfavorable) — a contracting period requiring adaptation. This 10-year cycle sets the broader context for all shorter-term transits."
+        },
+        "zwds": {
+          "major_stars": {
+            "Self Palace": "Zi Wei + Tian Fu — Emperor and Treasurer stars in the Self palace",
+            "Career Palace": "Wu Qu + Tian Xiang — Military and Minister stars suggesting leadership roles",
+            "Wealth Palace": "Tai Yin — Moon star indicating fluctuating but substantial wealth"
+          },
+          "palaces": {
+            "Self": "Zi Wei, Tian Fu",
+            "Career": "Wu Qu, Tian Xiang",
+            "Wealth": "Tai Yin",
+            "Travel": "Tian Ma (the Traveling Horse)"
+          },
+          "interpretation": "Zi Wei Dou Shu provides the palace-based star map of life's twelve domains. Major stars in key palaces indicate areas of natural strength and challenge."
+        }
+      },
+      "summary": "Your Day Master 甲 shapes how you navigate life's terrain. Support comes from Water, Wood; challenge from Metal, Earth. The current 辛酉 Luck Pillar (32-41) is a Metal (unfavorable) — a contracting period requiring adaptation period."
+    },
+    "numerology": {
+      "overview": "Life Path 11 (Master Number — do not reduce) is your core curriculum — the lesson your soul signed up for. Expression 7 shows how you manifest that purpose. Soul Urge 3 is what truly drives you beneath the surface. Currently in a 1 Personal Year.",
+      "detailed": {
+        "core_numbers": {
+          "life_path": {
+            "number": 11,
+            "is_master": true,
+            "title": "The Illuminated",
+            "meaning": "Master number. Intuitive, visionary, inspirational. Shadow: nervous, high-strung, self-doubting. Keep as 11 — never reduce.",
+            "interpretation": "Life Path: 11 (Master Number — do not reduce) — The Illuminated. Master number. Intuitive, visionary, inspirational. Shadow: nervous, high-strung, self-doubting. Keep as 11 — never reduce."
+          },
+          "expression": {
+            "number": 7,
+            "is_master": false,
+            "title": "The Seeker",
+            "meaning": "Analytical, spiritual, introspective, wise. Shadow: aloof, cynical, isolated.",
+            "interpretation": "Expression/Destiny: 7 — The Seeker. Analytical, spiritual, introspective, wise. Shadow: aloof, cynical, isolated."
+          },
+          "soul_urge": {
+            "number": 3,
+            "is_master": false,
+            "title": "The Communicator",
+            "meaning": "Creative, expressive, joyful, social. Shadow: scattered, superficial, dramatic.",
+            "interpretation": "Soul Urge/Heart's Desire: 3 — The Communicator. Creative, expressive, joyful, social. Shadow: scattered, superficial, dramatic."
+          },
+          "personality": {
+            "number": 4,
+            "is_master": false,
+            "title": "The Builder",
+            "meaning": "Practical, disciplined, reliable, systematic. Shadow: rigid, stubborn, workaholic.",
+            "interpretation": "Personality: 4 — The Builder. Practical, disciplined, reliable, systematic. Shadow: rigid, stubborn, workaholic."
+          },
+          "birthday": {
+            "number": 15,
+            "is_master": false,
+            "title": "",
+            "meaning": "",
+            "interpretation": "Birthday Number: 15 — . "
+          }
+        },
+        "pinnacle_cycles": [
+          {
+            "age": "0-28",
+            "number": 9,
+            "is_master": false,
+            "interpretation": "Ages 0-28: Number 9 — Completion and humanitarian service. Let go of what no longer serves; give back."
+          },
+          {
+            "age": "28-37",
+            "number": 11,
+            "is_master": true,
+            "interpretation": "Ages 28-37: Number 11 (Master Number — do not reduce) — Master cycle of illumination. Intuition and spiritual insight are heightened. High nervous energy — ground yourself."
+          },
+          {
+            "age": "37-46",
+            "number": 2,
+            "is_master": false,
+            "interpretation": "Ages 37-46: Number 2 — Cooperation and relationships take center stage. Develop patience and diplomacy."
+          },
+          {
+            "age": "46+",
+            "number": 1,
+            "is_master": false,
+            "interpretation": "Ages 46+: Number 1 — A period of independence and self-discovery. Take initiative; forge your own path."
+          }
+        ],
+        "challenge_cycles": [
+          {
+            "age": "0-28",
+            "number": 2,
+            "is_master": false,
+            "interpretation": "Ages 0-28: Number 2 — Challenge: Overcome oversensitivity and fear of confrontation. Build confidence in your own voice."
+          },
+          {
+            "age": "28-56",
+            "number": 5,
+            "is_master": false,
+            "interpretation": "Ages 28-56: Number 5 — Challenge: Avoid escapism and impulsiveness. Channel freedom-seeking into constructive change."
+          },
+          {
+            "age": "56+",
+            "number": 7,
+            "is_master": false,
+            "interpretation": "Ages 56+: Number 7 — Challenge: Overcome isolation and cynicism. Trust your depth without cutting yourself off from others."
+          }
+        ],
+        "current_timing": {
+          "personal_year": {
+            "number": 1,
+            "is_master": false,
+            "title": "The Leader",
+            "meaning": "Independent, pioneering, ambitious, original. Shadow: domineering, impatient.",
+            "interpretation": "Personal Year: 1 — The Leader. Independent, pioneering, ambitious, original. Shadow: domineering, impatient."
+          },
+          "personal_month": {
+            "number": 7,
+            "is_master": false,
+            "title": "The Seeker",
+            "meaning": "Analytical, spiritual, introspective, wise. Shadow: aloof, cynical, isolated.",
+            "interpretation": "Personal Month: 7 — The Seeker. Analytical, spiritual, introspective, wise. Shadow: aloof, cynical, isolated."
+          },
+          "personal_day": {
+            "number": 5,
+            "is_master": false,
+            "title": "The Freedom-Seeker",
+            "meaning": "Adventurous, versatile, progressive, sensual. Shadow: restless, irresponsible, addictive.",
+            "interpretation": "Personal Day: 5 — The Freedom-Seeker. Adventurous, versatile, progressive, sensual. Shadow: restless, irresponsible, addictive."
+          },
+          "interpretation": "In a 1 Personal Year, 7 Personal Month, 5 Personal Day. This timing reveals the energetic weather right now."
+        }
+      },
+      "summary": "Life Path 11 (Master Number — do not reduce): Master number. Intuitive, visionary, inspirational. Shadow: nervous, high-strung, self-doubting. Keep as 11 — never redu. You're here to the illuminated. Current 1 Personal Year sets the theme — align actions with this number's rhythm."
+    },
+    "human_design": {
+      "overview": "A Manifesting Generator with Emotional Authority and 3/5 Profile. Your strategy is to respond. Incarnation Cross: Right Angle Cross of the Sphinx (1/2 | 7/13). Split Definition. Active gates: 11; channels: 2.",
+      "detailed": {
+        "type_and_authority": {
+          "type": "Manifesting Generator",
+          "type_description": "A hybrid type — the multi-passionate builders. Fast, efficient, meant to skip steps. Signature: Satisfaction / Peace. Not-Self: Frustration / Anger.",
+          "authority": "Emotional",
+          "authority_description": "Emotional Solar Plexus — ride the wave. No truth in the now; wait for clarity across the full emotional arc. For big decisions, sleep on it (multiple nights if possible).",
+          "signature": "Satisfaction",
+          "not_self_theme": "Frustration",
+          "interpretation": "Type: Manifesting Generator. A hybrid type — the multi-passionate builders. Fast, efficient, meant to skip steps. Signature: Satisfaction / Peace. Not-Self: Frustration / Anger. Authority: Emotional. Emotional Solar Plexus — ride the wave. No truth in the now; wait for clarity across the full emotional arc. For big decisions, sleep on it (multiple nights if possible). Your Signature (correctness indicator) is Satisfaction. Your Not-Self Theme (wrongness indicator) is Frustration."
+        },
+        "profile": {
+          "profile": "3/5",
+          "interpretation": "Profile 3/5 describes your role and costume — how you navigate the world and how others see you. Each profile line carries specific themes of personal vs. transpersonal orientation."
+        },
+        "definition": {
+          "definition": "Split",
+          "interpretation": "Definition 'Split' describes how your defined centers connect and process energy. This shapes your decision-making speed, relational dynamics, and information processing style."
+        },
+        "incarnation_cross": {
+          "incarnation_cross": "Right Angle Cross of the Sphinx (1/2 | 7/13)",
+          "interpretation": "Incarnation Cross Right Angle Cross of the Sphinx (1/2 | 7/13) is your life's thematic purpose — the plot your life is written around. It's not what you do but the flavor of why you're here."
+        },
+        "sun_earth": {
+          "conscious_sun": {
+            "gate": 1,
+            "meaning": "Gate 1 — The Creative: Self-expression through unique creative impulse. When aligned, originality flows naturally."
+          },
+          "conscious_earth": {
+            "gate": 2,
+            "meaning": "Gate 2 — The Direction of the Self: Receptivity to life's direction. Knowing where to go comes through being, not doing."
+          },
+          "unconscious_sun": {
+            "gate": 7,
+            "meaning": "Gate 7 — The Role of the Self in Interaction: Leadership by design. Natural authority that others recognize and follow."
+          },
+          "unconscious_earth": {
+            "gate": 13,
+            "meaning": "Gate 13 — The Listener: Listening to others' stories. People naturally confide in you — a keeper of collective memory."
+          },
+          "interpretation": "Conscious (Personality) Sun Gate 1/Earth Gate 2 — what you identify with consciously. Unconscious (Design) Sun Gate 7/Earth Gate 13 — the deeper genetic imprint driving you."
+        },
+        "active_gates": [
+          {
+            "gate": 1,
+            "name": "The Creative: Self-expression through unique creative impulse. When aligned, originality flows naturally.",
+            "interpretation": "Gate 1 — The Creative: Self-expression through unique creative impulse. When aligned, originality flows naturally."
+          },
+          {
+            "gate": 2,
+            "name": "The Direction of the Self: Receptivity to life's direction. Knowing where to go comes through being, not doing.",
+            "interpretation": "Gate 2 — The Direction of the Self: Receptivity to life's direction. Knowing where to go comes through being, not doing."
+          },
+          {
+            "gate": 7,
+            "name": "The Role of the Self in Interaction: Leadership by design. Natural authority that others recognize and follow.",
+            "interpretation": "Gate 7 — The Role of the Self in Interaction: Leadership by design. Natural authority that others recognize and follow."
+          },
+          {
+            "gate": 13,
+            "name": "a keeper of collective memory.",
+            "interpretation": "Gate 13 — The Listener: Listening to others' stories. People naturally confide in you — a keeper of collective memory."
+          },
+          {
+            "gate": 15,
+            "name": "Modesty: Extremes of rhythm and love of humanity. You oscillate between extremes but find your natural rhythm.",
+            "interpretation": "Gate 15 — Modesty: Extremes of rhythm and love of humanity. You oscillate between extremes but find your natural rhythm."
+          },
+          {
+            "gate": 20,
+            "name": "The Now: Pure presence and contemplation. The capacity to be fully in the present moment.",
+            "interpretation": "Gate 20 — The Now: Pure presence and contemplation. The capacity to be fully in the present moment."
+          },
+          {
+            "gate": 34,
+            "name": "channel it into what you love.",
+            "interpretation": "Gate 34 — The Power of the Great: Pure sacral power. Raw life-force energy — channel it into what you love."
+          },
+          {
+            "gate": 35,
+            "name": "make it meaningful.",
+            "interpretation": "Gate 35 — Progress: Hunger for new experiences. You drive change and seek novelty — make it meaningful."
+          },
+          {
+            "gate": 36,
+            "name": "don't fear the intensity.",
+            "interpretation": "Gate 36 — Crisis: Emotional depth and exploration. Crisis leads to growth — don't fear the intensity."
+          },
+          {
+            "gate": 41,
+            "name": "you dream what hasn't been dreamed.",
+            "interpretation": "Gate 41 — Decrease: Imagination and fantasy. The seed of all human experience — you dream what hasn't been dreamed."
+          },
+          {
+            "gate": 57,
+            "name": "The Gentle: Intuitive clarity in the present moment. Penetrating insight that cuts through noise.",
+            "interpretation": "Gate 57 — The Gentle: Intuitive clarity in the present moment. Penetrating insight that cuts through noise."
+          }
+        ],
+        "active_channels": [
+          {
+            "channel": "20-34",
+            "interpretation": "Channel of Charisma — Pure presence in action. The busy channel."
+          },
+          {
+            "channel": "35-36",
+            "interpretation": "Channel of Transitoriness — Emotional experience through new things."
+          }
+        ],
+        "transits": [
+          {
+            "gate": 41,
+            "interpretation": "Current transit activation: Gate 41 — Decrease: Imagination and fantasy. The seed of all human experience — you dream what hasn't been dreamed."
+          },
+          {
+            "gate": 30,
+            "interpretation": "Current transit activation: Gate 30 — The Clinging Fire: Desire, feeling, and emotional depth. Deep emotional experience — your fire is contagious."
+          },
+          {
+            "gate": 55,
+            "interpretation": "Current transit activation: Gate 55 — Abundance: Emotional spirit and abundance. Deep emotional waves that carry creative fertility."
+          }
+        ]
+      },
+      "summary": "As a Manifesting Generator, your strategy flows through Emotional Authority. When aligned, you feel Satisfaction; when off-track, Frustration is the signal. Your 3/5 Profile and Right Angle Cross of the Sphinx (1/2 | 7/13) Incarnation Cross shape how and why you're here."
+    },
+    "unified_synthesis": {
+      "cross_system_themes": [
+        "**Water Depth**: Vedic: Water Ascendant, Human Design: Emotional Authority. You feel deeply and process emotionally. There's wisdom in the waves — but it requires patience. The emotional body is not an obstacle; it's your navigation system.",
+        "**Master Number Activation**: Life Path: 11. Master numbers carry amplified voltage — gifts that demand responsibility. You're operating at a higher frequency range; self-doubt is the cost of that voltage, not evidence you're off-path.",
+        "**Temporal + Energetic Frame**: Vedic Jupiter Mahadasha meets Human Design Split Definition. The Dasha sets the lesson plan; your Definition determines how you process it. Working with both is more effective than fighting either."
+      ],
+      "conflicts_and_reconciliation": [
+        "No significant conflicts detected between systems."
+      ],
+      "query_answer": "Regarding 'Should I move to another city this year?': Each system offers a different lens. From Vedic: your current Jupiter-Venus dasha period indicates the timing backdrop. From Chinese: your Day Master 甲 interacts with the current Luck Pillar to indicate elemental support or challenge. Numerology: Personal Year 1 gives the energetic theme. Human Design: your Manifesting Generator strategy through Emotional Authority shows how to make the decision. Cross-reference your Authority with the timing indicators — when the timing aligns AND your body/emotion says yes, move.",
+      "practical_guidance": [
+        "Wait for clarity across your emotional wave. No major decisions in the heat of a high or low.",
+        "Master Number 11: Ground yourself daily. The voltage is high — physical practices (exercise, bodywork, nature) are non-negotiable."
+      ]
+    }
+  },
+  "meta": {
+    "confidence_score": "high",
+    "missing_data_notes": [
+      "All data provided"
+    ],
+    "model_version": "deepseek-v4-pro"
+  }
+}

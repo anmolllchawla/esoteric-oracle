@@ -1,0 +1,231 @@
+{
+  "name": "Kai Morgan",
+  "reading_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "query_focus": "Should I move to another city this year?",
+  "theme": "yearly",
+  "output_language": "en",
+  "chart_data": {
+    "vedic": {
+      "lagna": {
+        "sign": "Scorpio",
+        "degree": 15.3,
+        "nakshatra": "Anuradha",
+        "pada": 3
+      },
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Leo",
+          "degree": 8.2,
+          "nakshatra": "Magha",
+          "pada": 2,
+          "house": 10,
+          "is_retrograde": false,
+          "natural_benefic": true,
+          "functional_benefic": true
+        },
+        {
+          "name": "Moon",
+          "sign": "Taurus",
+          "degree": 22.7,
+          "nakshatra": "Rohini",
+          "pada": 1,
+          "house": 7,
+          "is_retrograde": false,
+          "natural_benefic": true,
+          "functional_benefic": true
+        },
+        {
+          "name": "Mars",
+          "sign": "Scorpio",
+          "degree": 3.5,
+          "nakshatra": "Vishakha",
+          "pada": 4,
+          "house": 1,
+          "is_retrograde": false,
+          "natural_benefic": false,
+          "functional_benefic": true
+        },
+        {
+          "name": "Mercury",
+          "sign": "Virgo",
+          "degree": 18.1,
+          "nakshatra": "Hasta",
+          "pada": 2,
+          "house": 11,
+          "is_retrograde": false,
+          "natural_benefic": true,
+          "functional_benefic": true
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Pisces",
+          "degree": 5.9,
+          "nakshatra": "Uttara Bhadrapada",
+          "pada": 1,
+          "house": 5,
+          "is_retrograde": true,
+          "natural_benefic": true,
+          "functional_benefic": true
+        },
+        {
+          "name": "Venus",
+          "sign": "Libra",
+          "degree": 10.4,
+          "nakshatra": "Swati",
+          "pada": 2,
+          "house": 12,
+          "is_retrograde": false,
+          "natural_benefic": true,
+          "functional_benefic": false
+        },
+        {
+          "name": "Saturn",
+          "sign": "Capricorn",
+          "degree": 25.0,
+          "nakshatra": "Dhanishta",
+          "pada": 1,
+          "house": 3,
+          "is_retrograde": false,
+          "natural_benefic": false,
+          "functional_benefic": true
+        },
+        {
+          "name": "Rahu",
+          "sign": "Aquarius",
+          "degree": 12.8,
+          "nakshatra": "Shatabhisha",
+          "pada": 3,
+          "house": 4,
+          "is_retrograde": true,
+          "natural_benefic": false,
+          "functional_benefic": false
+        },
+        {
+          "name": "Ketu",
+          "sign": "Leo",
+          "degree": 12.8,
+          "nakshatra": "Magha",
+          "pada": 1,
+          "house": 10,
+          "is_retrograde": true,
+          "natural_benefic": false,
+          "functional_benefic": false
+        }
+      ],
+      "houses": [
+        {"number": 1, "sign": "Scorpio", "lords": ["Mars"]},
+        {"number": 2, "sign": "Sagittarius", "lords": ["Jupiter"]},
+        {"number": 3, "sign": "Capricorn", "lords": ["Saturn"]},
+        {"number": 4, "sign": "Aquarius", "lords": ["Saturn", "Rahu"]},
+        {"number": 5, "sign": "Pisces", "lords": ["Jupiter"]},
+        {"number": 6, "sign": "Aries", "lords": ["Mars"]},
+        {"number": 7, "sign": "Taurus", "lords": ["Venus"]},
+        {"number": 8, "sign": "Gemini", "lords": ["Mercury"]},
+        {"number": 9, "sign": "Cancer", "lords": ["Moon"]},
+        {"number": 10, "sign": "Leo", "lords": ["Sun"]},
+        {"number": 11, "sign": "Virgo", "lords": ["Mercury"]},
+        {"number": 12, "sign": "Libra", "lords": ["Venus"]}
+      ],
+      "current_dasha": {
+        "mahadasha_lord": "Jupiter",
+        "mahadasha_start": "2023-04-15",
+        "mahadasha_end": "2039-04-15",
+        "antardasha_lord": "Venus",
+        "antardasha_start": "2025-08-01",
+        "antardasha_end": "2028-01-15"
+      },
+      "yogas": ["Gaja Kesari", "Buddha-Aditya", "Raja", "Viparita Raja", "Sunapha"],
+      "transits": [
+        {
+          "planet": "Saturn",
+          "transit_sign": "Aquarius",
+          "transit_house": 4,
+          "aspects_natal": "Trine natal Moon in Taurus (7th house)"
+        },
+        {
+          "planet": "Jupiter",
+          "transit_sign": "Gemini",
+          "transit_house": 8,
+          "aspects_natal": "Opposes natal Mars in Scorpio (1st house)"
+        }
+      ],
+      "divisional_charts": {
+        "d9": {
+          "planet_positions": {},
+          "notes": "Venus exalted in D9 (Pisces), Mars in own sign (Aries) — strong relationship and courage signatures in the navamsha."
+        },
+        "d10": {
+          "planet_positions": {},
+          "notes": "Sun in 10th of D10, Mercury in 11th — career visibility and network strength amplified in the dashamsha."
+        }
+      }
+    },
+    "chinese": {
+      "four_pillars": {
+        "year": {"stem": "丙", "branch": "寅", "element": "Fire"},
+        "month": {"stem": "壬", "branch": "子", "element": "Water"},
+        "day": {"stem": "甲", "branch": "午", "element": "Wood"},
+        "hour": {"stem": "庚", "branch": "辰", "element": "Metal"}
+      },
+      "day_master": "甲",
+      "favorable_elements": ["Water", "Wood"],
+      "unfavorable_elements": ["Metal", "Earth"],
+      "current_luck_pillar": {
+        "pillar": "辛酉",
+        "age_range": "32-41",
+        "element_relationship": "Metal (unfavorable) — a contracting period requiring adaptation"
+      },
+      "zwds": {
+        "major_stars": {
+          "Self Palace": "Zi Wei + Tian Fu — Emperor and Treasurer stars in the Self palace",
+          "Career Palace": "Wu Qu + Tian Xiang — Military and Minister stars suggesting leadership roles",
+          "Wealth Palace": "Tai Yin — Moon star indicating fluctuating but substantial wealth"
+        },
+        "palaces": {
+          "Self": "Zi Wei, Tian Fu",
+          "Career": "Wu Qu, Tian Xiang",
+          "Wealth": "Tai Yin",
+          "Travel": "Tian Ma (the Traveling Horse)"
+        }
+      }
+    },
+    "numerology": {
+      "life_path": 11,
+      "expression": 7,
+      "soul_urge": 3,
+      "personality": 4,
+      "birthday": 15,
+      "pinnacle_cycles": [
+        {"age": "0-28", "number": 9, "meaning": "Completion and humanitarian focus early in life"},
+        {"age": "28-37", "number": 11, "meaning": "Master cycle of illumination and spiritual insight"},
+        {"age": "37-46", "number": 2, "meaning": "Cooperation and relationship focus"},
+        {"age": "46+", "number": 1, "meaning": "Independent leadership and self-actualization"}
+      ],
+      "challenge_cycles": [
+        {"age": "0-28", "number": 2},
+        {"age": "28-56", "number": 5},
+        {"age": "56+", "number": 7}
+      ],
+      "personal_year": 1,
+      "personal_month": 7,
+      "personal_day": 5
+    },
+    "human_design": {
+      "type": "Manifesting Generator",
+      "authority": "Emotional",
+      "profile": "3/5",
+      "definition": "Split",
+      "incarnation_cross": "Right Angle Cross of the Sphinx (1/2 | 7/13)",
+      "conscious_sun_gate": 1,
+      "conscious_earth_gate": 2,
+      "unconscious_sun_gate": 7,
+      "unconscious_earth_gate": 13,
+      "active_gates": [1, 2, 7, 13, 15, 20, 34, 35, 36, 41, 57],
+      "active_channels": ["20-34", "35-36"],
+      "not_self_theme": "Frustration",
+      "signature": "Satisfaction",
+      "transit_gates_activated": [41, 30, 55]
+    }
+  }
+}

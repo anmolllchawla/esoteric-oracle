@@ -4,24 +4,43 @@
   --color-bg: #0a0a0f;
   --color-surface: #12121a;
   --color-surface2: #1a1a26;
+  --color-surface3: #222236;
   --color-border: #2a2a3a;
+  --color-border2: #3a3a5a;
   --color-text: #e0d8f0;
   --color-text-dim: #8878a8;
+  --color-text-dimmer: #6a5a8a;
   --color-accent: #a78bfa;
   --color-accent2: #c4b5fd;
+  --color-accent3: #8b6fe0;
   --color-gold: #d4a853;
+  --color-gold-dim: #b89430;
   --color-rose: #e8738a;
+  --color-green: #4ade80;
+  --color-cyan: #22d3ee;
+  --color-orange: #fb923c;
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 .surface { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 12px; }
 .surface2 { background: var(--color-surface2); border: 1px solid var(--color-border); border-radius: 8px; }
+.surface3 { background: var(--color-surface3); border: 1px solid var(--color-border2); border-radius: 6px; }
+
+.badge-benefic { background: #14532d; color: #4ade80; }
+.badge-malefic { background: #450a0a; color: #f87171; }
+.badge-fire { background: #7c2d12; color: #fb923c; }
+.badge-earth { background: #292524; color: #d6d3d1; }
+.badge-water { background: #0c4a6e; color: #38bdf8; }
+.badge-air { background: #1e1b4b; color: #818cf8; }
+
+.planet-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; }
 
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-border2); }
